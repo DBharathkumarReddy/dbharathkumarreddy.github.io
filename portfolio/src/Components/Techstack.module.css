@@ -1,0 +1,31 @@
+.logo{
+    width: 100%;
+    height: 100%;
+   
+}
+.stack{
+    width: 100px;
+    height: 100px;
+    margin: 40px 85px;
+    
+}
+.stack >h5 {
+    color: rgb(119, 115, 115);
+}
+.stackhead{
+    color: rgb(119, 115, 115);
+}
+.stackContainer{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+}
+.mainbox{
+    padding: 20px 0px 50px 0px;
+    background-color: rgb(253, 253, 253);
+    
+    border-bottom: 1px solid rgb(216, 210, 210);
+}
