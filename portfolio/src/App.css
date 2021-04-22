@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+.gitdata{
+  width: 90%;
+  margin: 25px auto;
+  border: 1px solid rgb(228, 225, 225);
+  padding: 20px 5px 0px 5px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

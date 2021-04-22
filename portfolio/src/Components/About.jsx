@@ -8,7 +8,7 @@ export const About = () => {
             
             <div className={styles.intro}>
                 <h1>Donuri Bharath Kumar Reddy</h1>
-                <h3>Full Stack Developer</h3>
+                <h3 className={styles.role}>Full Stack Developer</h3>
                 <div className={styles.listcontainer}>
                 <ul className={styles.list}>
                     <li>
@@ -29,7 +29,7 @@ export const About = () => {
                 loves problem solving. Looking forward to join a company where I shall be able to contribute towards
                     individual and company growth.</p>
 
-                    <a href="" target="blank"><button className={styles.linkbutton}>View Resume </button></a>
+                    <a href="https://drive.google.com/file/d/1i0KtIxZWR9zO-GYLLUDt4E4fU_wqIg66/view?usp=sharing" target="blank"><button className={styles.linkbutton}>View Resume </button></a>
                 </div>
             </div>
         </div>
