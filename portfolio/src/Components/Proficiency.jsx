@@ -4,22 +4,21 @@ const data=[
     {
         path:"./resources/reactapps.png",
         name:"React Apps",
-        content:"React | Hooks API | Redux | React Router DOM"
+        
     },
     {
         path:"./resources/frontend.png",
         name:"Front End",
-        content:"Node | Express | MongoDB"
+        
     },
     {
         path:"./resources/backend.png",
         name:"Back End",
-        content:"HTML | CSS | JavaScript "
+        
     },
     {
         path:"./resources/dsandalgo.png",
         name:"Data Structures & Algorithms",
-        content:"Binary Search | Recursion | Linked Lists "
     }
 ]
 const proficiency = () => {
@@ -32,7 +31,6 @@ const proficiency = () => {
                         <div className={styles.proficiency}>
                             <img src={item.path}></img>
                             <h3>{item.name}</h3>
-                            <p>{item.content}</p>
                         </div>
                     ))
                 }
