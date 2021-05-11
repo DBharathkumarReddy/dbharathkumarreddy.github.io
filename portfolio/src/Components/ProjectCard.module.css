@@ -16,18 +16,18 @@
     padding: 0px 15px;
     text-align: left;
     color:  rgb(61, 59, 59);
-    height: 150px;
+    height: 140px;
 }
 .buttonsBox{
     display: flex;
 }
 
 .linkbutton{
-    color:rgb(1, 20, 1); 
+    color:black; 
     padding: 10px 12px;
     background-color: coral;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 4px;
     margin-left: 15px;
     border: none;
@@ -46,6 +46,8 @@
     width: 90%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
     
     
@@ -55,6 +57,18 @@
     padding-top: 20px;
     background-color: teal;
     padding-bottom: 30px;
+}
+
+.stack{
+    width: 25px;
+    height: 25px;
+    margin:5px;
+}
+.stackContainer{
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(243, 241, 241);
+    
 }
 
 

@@ -14,8 +14,12 @@ const data=[
         name:"CSS"
     },
     {
-        path:"./resources/react2.png",
+        path:"logo192.png",
         name:"REACT JS"
+    },
+    {
+        path:"./resources/redux.png",
+        name:"REDUX"
     },
     {
         path:"./resources/nodejs.png",
@@ -28,11 +32,8 @@ const data=[
     {
         path:"./resources/mongodb.png",
         name:"MONGO DB"
-    },
-    {
-        path:"./resources/sql.png",
-        name:"SQL"
     }
+    
 ]
 
 

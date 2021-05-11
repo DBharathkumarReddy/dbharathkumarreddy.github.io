@@ -5,30 +5,34 @@ const data=[
         path:"./resources/practo.png",
         description:"A web application used to book an appointment with doctor,video consultation,order medicines and also diagnostics",
         title:"Practo",
-        demo:"",
-        gitlink:"https://github.com/SaravanakumarJN/Practo---Pentagon"
+        demo:"https://practo.netlify.app/",
+        gitlink:"https://github.com/SaravanakumarJN/Practo---Pentagon",
+        stacks:["./resources/javascript2.png","./resources/html.png","./resources/css.png","logo192.png","./resources/redux.png","./resources/nodejs.png","./resources/express.png","./resources/mongodb.png"]
     },
     {
         path:"./resources/medium.png",
         description:"Medium is a publishing platform where people can read important, insightful stories on the topics and share ideas with the world",
         title:"Medium",
-        demo:"",
-        gitlink:"https://github.com/himrd95/Foxtrot"
+        demo:"https://medium-web.netlify.app/",
+        gitlink:"https://github.com/DBharathkumarReddy/medium-clone",
+        stacks:["./resources/javascript2.png","./resources/html.png","./resources/css.png","logo192.png","./resources/redux.png"]
     },
     {
         path:"./resources/mynetdairy.png",
         description:"MyNetDiary is a web application that allows you to track what you eat and how much you exercise.",
         title:"MynetDairy",
-        demo:"",
-        gitlink:"https://github.com/AbhinavRajSing/magnesium"
+        demo:"https://dbharathkumarreddy.github.io/mynetdiary/",
+        gitlink:"https://github.com/DBharathkumarReddy/mynetdiary",
+        stacks:["./resources/javascript2.png","./resources/html.png","./resources/css.png"]
     },
     {
         path:"./resources/mailtrap.png",
         description:"Mailtrap is a test mail server solution that allows testing email notifications without sending them to the real users of your application.",
         title:"MailTrap",
-        demo:"",
-        gitlink:"https://github.com/suraj588/Titans-Arsenic"
-    },
+        demo:"https://suraj588.github.io/Titans-Arsenic/",
+        gitlink:"https://github.com/suraj588/Titans-Arsenic",
+        stacks:["./resources/javascript2.png","./resources/html.png","./resources/css.png"]
+    }
 ]
 const ProjectCard = (props) => {
     const{path,title,description,demo,gitlinnk}=props
@@ -44,6 +48,13 @@ const ProjectCard = (props) => {
                             <div className={styles.info}>
                                 <h3>{item.title}</h3>
                                 <p>{item.description}</p>
+                            </div>
+                            <div className={styles.stackContainer}>
+                                {
+                                    item.stacks.map((logo)=>(
+                                        <img className={styles.stack} src={logo}></img>
+                                    ))
+                                }
                             </div>
                             
                             <div className={styles.buttonsBox}>

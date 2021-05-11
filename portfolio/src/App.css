@@ -2,14 +2,24 @@
   text-align: center;
 }
 .gitdata{
-  width: 90%;
+  width: 85%;
   margin: 25px auto;
-  border: 1px solid rgb(228, 225, 225);
   padding: 20px 5px 0px 5px;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+text.ContributionCalendar-label { 
+  fill: #333 !important;
+ }
+
+ .contrib-number {
+  font-weight:400 !important;
+  color: #333;
+}
+.contrib-column {
+  border: 1px solid #ddd!important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

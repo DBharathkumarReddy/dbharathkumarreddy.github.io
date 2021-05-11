@@ -4,7 +4,7 @@ export const About = () => {
     return (
         <div className={styles.container}>
         
-        <img src="./resources/profilepic2.png" className={styles.profilepic}></img>
+        <img src="./resources/mypic.jpg" className={styles.profilepic}></img>
             
             <div className={styles.intro}>
                 <h1>Donuri Bharath Kumar Reddy</h1>
@@ -29,7 +29,7 @@ export const About = () => {
                 loves problem solving. Looking forward to join a company where I shall be able to contribute towards
                     individual and company growth.</p>
 
-                    <a href="https://drive.google.com/file/d/1i0KtIxZWR9zO-GYLLUDt4E4fU_wqIg66/view?usp=sharing" target="blank"><button className={styles.linkbutton}>View Resume </button></a>
+                    <a href="./resources/finalresume.pdf" download ><button className={styles.linkbutton}>Download Resume </button></a>
                 </div>
             </div>
         </div>

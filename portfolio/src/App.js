@@ -3,7 +3,6 @@ import {About} from "./Components/About"
 import {Techstack} from "./Components/Techstack"
 import Proficiency from "./Components/Proficiency"
 import ProjectCard from "./Components/ProjectCard"
-import Circle from "./Components/Circle"
 import ReactGitHubCalendar from 'react-ts-github-calendar';
 import Footer from "./Components/Footer"
 function App() {
@@ -13,8 +12,8 @@ function App() {
       <Techstack/>
       <Proficiency/>
       <ProjectCard/>
-      <Circle/>
       <div className="gitdata">
+        <h1 style={{color:"rgb(92, 91, 91)"}}>GitHub Stats</h1>
       <ReactGitHubCalendar userName="DBharathkumarReddy" responsive/>;
       </div>
       <Footer/>
