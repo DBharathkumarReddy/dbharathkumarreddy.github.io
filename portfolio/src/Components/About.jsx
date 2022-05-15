@@ -29,7 +29,7 @@ export const About = () => {
                 loves problem solving. Looking forward to join a company where I shall be able to contribute towards
                     individual and company growth.</p>
 
-                    <a href="./resources/finalresume.pdf" download ><button className={styles.linkbutton}>Download Resume </button></a>
+                    <a href="./resources/BharathReddy_resume.pdf" download ><button className={styles.linkbutton}>Download Resume </button></a>
                 </div>
             </div>
         </div>
